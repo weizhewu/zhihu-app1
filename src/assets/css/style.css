@@ -1,0 +1,89 @@
+/* ----------------------------------------全局设置--------------------------------- */
+*{
+	/* 与边界无缝隙 */
+	margin: 0;
+	padding: 0;
+	/* 无边界线 */
+	border: none;
+	outline: none;
+	/* 实际宽度是width减去(border + padding */
+	box-sizing: border-box;
+}
+
+body{
+	min-width: 1024px;
+	/* 整个浏览器高度 calc(100vh) */
+	height: calc(100vh);
+	
+	font-size: 15px;
+}
+
+/* 超链接设置 */
+a{
+	/* 无下划线 */
+	text-decoration: none;
+}
+
+ul{
+	/* ul无. */
+	list-style: none;
+}
+
+/* ----------------------------------------display样式--------------------------------- */
+.d-block{
+	display: block;
+}
+
+.d-none{
+	display: none;
+}
+.d-wb{
+	display: -webkit-box;
+}
+
+/* ----------------------------------------位置样式--------------------------------- */
+/* 水平居中 */
+.x-center{
+	text-align: center;
+}
+.x1-center{
+	margin: 0 auto;
+}
+/* 垂直居中 */
+.y-center{
+	top: 50%;/* 父元素高度的一半 */
+	transform: translateY(50%);/* 自身高度的一半 */
+}
+.y-19{
+	top: 50%;
+	transform: translateY(19%);
+}
+.y-24{
+	top: 50%;
+	transform: translateY(30%);
+}
+/* ----------------------------------------背景样式--------------------------------- */
+.bc-white{
+	background-color: #ffffff;
+}
+.bc-dark{
+	background-color: #f6f6f6;
+}
+/* ------------------------------------------margin样式--------------------------------- */
+.mt-20{
+	margin-top: 20px;
+}
+
+.ml-38{
+	margin-left: 38%;
+}
+/* -----------------------------------------字体样式--------------------------------- */
+.f-dark{
+	color: #808080;
+}
+/* -----------------------------------------下划线样式--------------------------------- */
+.ud-dark{
+	padding-bottom: 3px;
+	width: 90%;
+	border-bottom: 0.0009rem solid #808080;
+}
